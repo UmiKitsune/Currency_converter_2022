@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Currency converter</string>
+
+    <string name="nav_currencyList_label">Список валют</string>
+    <string name="nav_currencyConverter_label">Обмен валют</string>
+    <string name="nav_appInfo_label">Информация о приложении</string>
+    <string name="reload">Обновить данные</string>
+    <string name="empty_rub_txt">Вы не ввели сумму</string>
+    <string name="converter_rub_txt">Рубли</string>
+    <string name="converter_hint_txt">Введите сумму</string>
+    <string name="converter_cur_choose_txt">Выберите валюту</string>
+    <string name="converter_btn_txt">Конвертировать</string>
+    <string name="converter_result_txt">Итог:</string>
+    <string name="info_home_txt">Данное приложение загружает данные с сайта ЦБ, сохраняет их в базу данных и отображает во вкладке</string>
+    <string name="info_home_name">Список валют</string>
+    <string name="info_home_img">Значок домой</string>
+    <string name="info_about_currency">Сумма отображается в рублях на 1 единицу выбранной валюты.</string>
+    <string name="info_currency_name">Во вкладке</string>
+    <string name="info_currency_img">Значок обмен валют</string>
+    <string name="info_currency_txt">можно конвертировать сумму в рублях в выбранную валюту.</string>
+    <string name="info_menu_name">При нажатии на значок меню</string>
+    <string name="info_menu_img">Значок обновить</string>
+    <string name="info_menu_txt">можно вручную обновить данные.</string>
+    <string name="info_about_app">Так же в приложении есть таймер который обновляет данные автоматически каждые 20 секунд.</string>
+    <string name="arrow_right">Значок стрелка направо</string>
+</resources>

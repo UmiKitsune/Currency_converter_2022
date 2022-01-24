@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="28dp"
+    tools:context=".ui.AppInfoFragment">
+
+    <TextView
+        android:id="@+id/homeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        android:text="@string/info_home_txt"/>
+
+    <TextView
+        android:id="@+id/homeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homeTxt"
+        android:text="@string/info_home_name"/>
+
+    <ImageView
+        android:id="@+id/homeImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/info_home_img"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/ic_home"
+        app:layout_constraintTop_toBottomOf="@id/homeTxt"
+        app:layout_constraintStart_toEndOf="@id/homeName"/>
+
+    <TextView
+        android:id="@+id/aboutCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/homeImg"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/info_about_currency"/>
+
+    <TextView
+        android:id="@+id/currencyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aboutCurrency"
+        android:text="@string/info_currency_name"/>
+
+    <ImageView
+        android:id="@+id/currencyImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/info_currency_img"
+        app:layout_constraintStart_toEndOf="@id/currencyName"
+        app:layout_constraintTop_toBottomOf="@id/aboutCurrency"
+        android:src="@drawable/ic_currency_exchange"/>
+
+    <TextView
+        android:id="@+id/currencyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/currencyImg"
+        android:text="@string/info_currency_txt"/>
+
+    <TextView
+        android:id="@+id/menuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/currencyText"
+        android:text="@string/info_menu_name"/>
+
+    <ImageView
+        android:id="@+id/menuImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/info_menu_img"
+        app:layout_constraintTop_toBottomOf="@id/currencyText"
+        app:layout_constraintStart_toEndOf="@id/menuName"
+        android:src="@drawable/ic_reload_blc"/>
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menuImg"
+        android:text="@string/info_menu_txt"/>
+
+    <TextView
+        android:id="@+id/moreAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menuText"
+        android:text="@string/info_about_app"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
